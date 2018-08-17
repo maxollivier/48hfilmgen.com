@@ -4,5 +4,5 @@ function generator(){
 		document.getElementById("genre").innerHTML = genrePrint
 		var lineIndex = Math.floor(Math.random() * (line.length));
 		var linePrint = genre[lineIndex];
-		document.getElementById("genre").innerHTML = linePrint
+		document.getElementById("phrase").innerHTML = linePrint
 }
