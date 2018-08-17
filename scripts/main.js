@@ -6,7 +6,7 @@ function genreGenerator(){
 
 function phraseGenerator(){
 	var phraseIndex = Math.floor(Math.random() * (phrase.length));
-	var phrasePrint = genre[lineIndex];
+	var phrasePrint = genre[phraseIndex];
 	document.getElementById("phrase").innerHTML = phrasePrint;
 }
 
