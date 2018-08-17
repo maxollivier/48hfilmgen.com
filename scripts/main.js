@@ -1,8 +1,8 @@
 function generator(){
 		var genx = Math.floor(Math.random() * (genre.length));
-		var linx = Math.floor(Math.random() * (line.length));
+		var phrx = Math.floor(Math.random() * (phrase.length));
 		var geny = genre[genx];
-		var liny = genre[linx];
+		var phry = phrase[linx];
 		document.getElementById("genre").innerHTML = genx
-		document.getElementById("line").innerHTML = linx
+		document.getElementById("line").innerHTML = phrx
 }
