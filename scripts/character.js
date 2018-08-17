@@ -1,4 +1,4 @@
-var genre = [
+var char = [
 "One",
 "Two",
 "Three",
