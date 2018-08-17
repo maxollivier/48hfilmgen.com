@@ -1,8 +1,10 @@
-function generator(){
+function genreGenerator(){
 	var genreIndex = Math.floor(Math.random() * (genre.length));
-	var phraseIndex = Math.floor(Math.random() * (phrase.length));
 	var genrePrint = genre[genreIndex];
+	document.getElementById("genre").innerHTML = genrePrint;
+}
+function phraseGenerator(){
+	var phraseIndex = Math.floor(Math.random() * (phrase.length));
 	var phrasePrint = genre[lineIndex];
-	document.getElementById("genre").innerHTML = genrePrint
-	document.getElementById("phrase").innerHTML = phrasePrint
+	document.getElementById("phrase").innerHTML = phrasePrint;
 }
