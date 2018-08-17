@@ -1,5 +1,5 @@
 function generator(){
-		var genx = Math.floor(Math.random() * (genre.length));
-		var geny = genre[genx];
-		document.getElementById("genre").innerHTML = geny
+		var x = Math.floor(Math.random() * (genre.length));
+		var y = genre[x];
+		document.getElementById("genre").innerHTML = y
 }
