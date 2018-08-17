@@ -1,4 +1,4 @@
-var genre = [
+var prop = [
 "One",
 "Two",
 "Three",
