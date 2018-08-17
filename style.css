@@ -6,6 +6,11 @@ p {
     font-size: 200%;
 }
 
+p a {
+    color: #FFD100;
+    font-size: 200%;
+}
+
 .center {
     text-align: center;
 }
@@ -25,5 +30,4 @@ p {
 
 .gen {
     background-color: #FFD100;
-    color: black;
 }
