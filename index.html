@@ -3,6 +3,8 @@
 <html>
 
 <head>
+    <script src="scripts/main.js"></script>
+	<script src="scripts/genre.js"></script>
 
 <style>
 .center {
@@ -31,21 +33,14 @@ p {
 
 </head>
 <div class="center">	
-<body>
-<h3>Test</h3>
-<p>Test</p>
-<button class="button">Generate</button>
-<script>
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        var myArr = JSON.parse(this.responseText);
-        document.getElementById("demo").innerHTML = myArr[0];
-    }
-};
-xmlhttp.open("GET", "genre.json", true);
-xmlhttp.send();
-</script>
-</body>
+	<body>
+
+		<p>Click the button to generate your challenge.</p>
+		
+		<button onclick="generator()">Generate</button>
+		
+		<p id="demo"></p>
+		
+	</body>
 </div>
 </html>
