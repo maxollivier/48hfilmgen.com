@@ -8,7 +8,7 @@ function genreGenerator(){
 
 function phraseGenerator(){
 	var phraseIndex = Math.floor(Math.random() * (phrase.length));
-	var phrasePrint = genre[phraseIndex];
+	var phrasePrint = phrase[phraseIndex];
 	document.getElementById("phrase").innerHTML = phrasePrint;
 	console.log(phraseIndex)
 	console.log(phrasePrint)
