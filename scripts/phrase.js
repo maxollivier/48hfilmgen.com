@@ -1,4 +1,4 @@
-var line = [
+var phrase = [
 'Who\'s line is it anyway?',
 'I\'ve got a bad feeling about this',
 'No, I am your father',
