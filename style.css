@@ -24,5 +24,6 @@ p {
 }
 
 .gen {
-    background-color: lightgrey;
+    background-color: #FFD100;
+    color: black;
 }
