@@ -30,4 +30,7 @@ p a {
 
 .gen {
     background-color: #FFD100;
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
 }
