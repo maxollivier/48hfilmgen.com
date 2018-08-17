@@ -1,5 +1,8 @@
 function generator(){
-		var x = Math.floor(Math.random() * (genre.length));
-		var y = genre[x];
-		document.getElementById("genre").innerHTML = y
+		var genreIndex = Math.floor(Math.random() * (genre.length));
+		var genrePrint = genre[genreIndex];
+		document.getElementById("genre").innerHTML = genrePrint
+		var lineIndex = Math.floor(Math.random() * (line.length));
+		var linePrint = genre[lineIndex];
+		document.getElementById("genre").innerHTML = linePrint
 }
