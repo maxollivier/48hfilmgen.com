@@ -1,5 +1,5 @@
 var prop = [
-"One",
-"Two",
-"Three",
+	"Camera",
+	"Stapler",
+	"Pen",
 ]
