@@ -1,14 +1,18 @@
+@font-face { font-family: Futura; src: url('futur.ttf'); }
+
 body {
     background-color: #0A0A28;
 }
 p {
     color: black;
     font-size: 100%;
+    font-family: Futura;
 }
 
 p a {
     color: #FFD100;
     font-size: 150%;
+    font-family: Futura;
 }
 
 .center {
