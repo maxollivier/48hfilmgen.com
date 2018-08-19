@@ -16,3 +16,9 @@ function passWord() {
         history.go(-1);
     return " ";
 }
+
+function alpha() {
+    genre.sort();
+    phrase.sort();
+    prop.sort()
+}
