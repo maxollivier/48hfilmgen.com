@@ -29,7 +29,7 @@ p a {
     display: inline-block;
     font-size: 12px;
     font-family: Futura;
-    margin: 4px 2px;
+    margin: auto;
     cursor: pointer;
 }
 
