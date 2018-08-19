@@ -50,6 +50,7 @@ p a {
 .gen {
     background-color: #FFD100;
     width: 300px;
+    height: 25px;
     padding: 15px;
     margin: auto;
 }
