@@ -24,12 +24,11 @@ p a {
     border: none;
     color: black;
     padding: 13px 16px;
+    margin: auto;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 12px;
     font-family: Futura;
-    margin: auto;
     cursor: pointer;
 }
 
