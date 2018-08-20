@@ -1,7 +1,10 @@
 var prop = [
-	"Camera",
-	"Stapler",
-	"Pen",
 	"Backpack",
+	"Bottle",
+	"Camera",
+	"Glasses"
+	"Pen",
 	"Phone",
+	"Stapler",
+	"Sunglasses",
 ]
