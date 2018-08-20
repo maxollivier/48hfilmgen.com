@@ -2,9 +2,9 @@ var prop = [
 	"Backpack",
 	"Bottle",
 	"Camera",
-	"Glasses"
+	"Glasses",
 	"Pen",
 	"Phone",
 	"Stapler",
-	"Sunglasses",
+	"Sunglasses"
 ]
